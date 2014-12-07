@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'jekyll'
+
 gem 'yui-compressor'
-gem 'jekyll-assets'
+gem 'jekyll-assets', :path => '/Users/dmehta/Code/jekyll-assets'
