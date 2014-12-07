@@ -40,6 +40,7 @@ assets:
         - _assets/images
     js_compressor: "yui"
     css_compressor: "sass"
+    autosize_images: true
     cachebust: hard
     gzip: [ text/css, application/javascript ]
     version: 1
