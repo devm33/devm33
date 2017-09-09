@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
 
-# serve with dev env
-export JEKYLL_ENV='development'
 bundle exec jekyll serve --incremental
