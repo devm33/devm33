@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-# Script to gzip html files in site folder
-#
-# TODO make (or find) jekyll plugin to do this
-
-SITE='_site/'
-
-find $SITE -iname '*.html' -exec bash -c 'gzip -v -n -c --best "{}" > "{}".gz' \;

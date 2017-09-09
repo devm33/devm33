@@ -1,12 +1,19 @@
 # TODO
 
-- [WIP] add a little progressive enhancement pjax :)
+- add a little progressive enhancement pjax :)
 - find jekyll plugin to gzip everything (html,css,js)
 - add csp from here https://github.com/h5bp/server-configs-apache/
 - remove text next to logos in footer, single file logos, make them larger
 - add travis tests! http://garthdb.com/writings/i-am-a-jekyll-god/
 
 ## Resume
+
+- formatting error with arrow?
+
+- redirect devrajmehta.com to devm33.com/resume
+  - or break that out to a separate site
+    - could allow for more opt
+    - easier to manage?
 
 - better line spacing (less content indigestion)
     - maybe change to actual bullets

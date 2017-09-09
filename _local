@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# remove ignored files
-git clean -dfX
-
 # serve with dev env
 export JEKYLL_ENV='development'
 bundle exec jekyll serve --incremental
