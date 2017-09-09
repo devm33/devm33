@@ -7,7 +7,9 @@ layout: default
 <h1 class="post-title">{{ page.title }}</h1>
 <p class="post-meta">
     {{ page.date | date: "%b %-d, %Y" }}
-    {% if page.meta %}{{ page.meta }}{% endif %}
+    {%- if page.meta -%}
+      {{ page.meta }}
+    {%- endif -%}
     {{ page.categories | category_links }}
 </p>
 </header>
@@ -18,4 +20,4 @@ layout: default
 
 </div>
 
-<script>{% asset permalinks %}</script>
+{%- include permalinks.html -%}

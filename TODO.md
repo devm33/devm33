@@ -1,13 +1,15 @@
 # TODO
 
-- remove background image loading js
-- remove jekyll-assets
-
+- move domain to google
+- move site to netlify
+- enable netlify ssl lock
+- use media queries to load appropiate size landing image
+- break up css by media queries
+  - is there a way to do this with sass?
+- consolidate layout files
 - add guard for livereload
-
-- add a little progressive enhancement pjax :)
-- find jekyll plugin to gzip everything (html,css,js)
-- add csp from here https://github.com/h5bp/server-configs-apache/
+- add service worker, pass lighthouse audit
+- make header anchor link look nicer (i think script is not needed anymore)
 - remove text next to logos in footer, single file logos, make them larger
 - add travis tests! http://garthdb.com/writings/i-am-a-jekyll-god/
 
@@ -19,6 +21,9 @@
   - or break that out to a separate site
     - could allow for more opt
     - easier to manage?
+
+- add link to pdf verison on html version
+  - make sure this is no print in css
 
 - better line spacing (less content indigestion)
     - maybe change to actual bullets

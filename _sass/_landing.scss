@@ -3,7 +3,7 @@
  */
 
 body.landing {
-    background: url(asset_path("vsm_bg.jpg")) no-repeat center center / cover fixed #777;
+    background: url(/images/bg.jpg) no-repeat center center / cover fixed #777;
 }
 
 @include media-query($on-laptop) {

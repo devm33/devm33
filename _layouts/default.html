@@ -2,18 +2,14 @@
 layout: html
 ---
 
-{% include head.html %}
-
+{%- include head.html -%}
 <body>
-
-<div class="page-content">
-<div class="wrapper">
-{{ content }}
-</div>
-</div>
-
-{% include footer.html %}
-
-{% js base %}
-
+  <div class="page-content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </div>
+  {%- include footer.html -%}
+  {%- include tracking.html -%}
+  {%- include console.html -%}
 </body>

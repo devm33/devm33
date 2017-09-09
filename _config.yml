@@ -1,7 +1,7 @@
 # Site settings
 title: Devraj Mehta
 email: devm33@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
     Automate everything.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://devm33.com" # the base hostname & protocol for your site
@@ -12,11 +12,9 @@ rss_url: "http://feeds.feedburner.com/devm33"
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
 sass:
-    style: :compressed
+    style: compressed
 permalink: /:year-:month-:day/
-include: [".htaccess"]
 exclude: [ Gemfile, Gemfile.lock ]
 
 # yaml front matter defaults

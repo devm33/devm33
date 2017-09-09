@@ -34,14 +34,3 @@ $on-laptop:        800px;
         @content;
     }
 }
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "main/base",
-        "main/layout",
-        "main/landing",
-        "main/card",
-        "main/favico-sprite",
-        "main/syntax-highlighting"
-;

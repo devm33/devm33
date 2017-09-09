@@ -8,7 +8,7 @@ a friend running [this chrome extension][maccman-motivation] which replaces the
 newtab page in chrome with a page that displays his age to nine
 decimal places.
 
-{% image maccman-motivation.gif %}
+![animated screenshot](/images/maccman-motivation.gif)
 
 This extension caught my attention because I liked the idea of getting rid of
 the thumbnails on the default new tab page. I found myself often getting
@@ -16,7 +16,7 @@ distracted by my most visited sites whenever I opened a new tab. Having my age
 ticking by instead seemed like it would be much more motivational. It turns out
 there is a whole genre of motivational new tab page chrome extensions.
 
-{% image default-new-tab.png %}
+![screenshot of default new tab page](/images/default-new-tab.png)
 
 Despite how much I liked maccman's implementation I wanted to tweak the
 appearance a little.  Thanks to github, I soon had a fork of the motivation
@@ -31,7 +31,7 @@ bookmark folder opens all of the folder's contents in tabs. Of course, basic
 mouse clicking works as expected and middle clicking on a bookmark folder also
 opens all of the folder's contents in tabs.
 
-{% image devm33-motivation.png %}
+![screenshot of fork of extension](/images/devm33-motivation.png)
 
 At this point, the bookmarks feature is complete and separable from the rest of
 the extension (thanks angular!) If I ever get tired of the age counter, I would
