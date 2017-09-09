@@ -1,5 +1,8 @@
 # TODO
 
+- remove background image loading js
+- remove jekyll-assets
+
 - add a little progressive enhancement pjax :)
 - find jekyll plugin to gzip everything (html,css,js)
 - add csp from here https://github.com/h5bp/server-configs-apache/
