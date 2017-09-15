@@ -56,7 +56,7 @@
   finish: 2013
   description:
       - Worked on a comprehensive tablet solution for health care practices.
-      - Contributed to the core product: a single-page mobile-web application.
+      - 'Contributed to the core product: a single-page mobile-web application.'
       - Worked directly with the CTO/co-founder on a small team.
       - Completed projects that were self-driven, across the full stack, and
         by necessity on a fast-paced cycle.
@@ -82,6 +82,5 @@
   description:
       - Implemented a multi-agent modeling simulation using general purpose GPU
         computing.
-
       - Correlated performance with agent complexity as more basic agents
         fit the massively parallel paradigm.
