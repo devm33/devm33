@@ -10,9 +10,9 @@
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-{% if site.rss_url %}
+{%- if site.rss_url -%}
 <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.title }}" href="{{ site.rss_url }}" />
-{% endif %}
+{%- endif -%}
 
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico"/>
 </head>
